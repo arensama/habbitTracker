@@ -1,0 +1,65 @@
+@import url("../../assets/fonts/Space\ Grotesk/style.css");
+
+.title {
+  color: var(--neutral-70, #000);
+  font-feature-settings: "case" on;
+  /* title/xlarge */
+  font-family: "Space Grotesk Bold";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+}
+.iconContainer {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background: var(--neutral-70, #000);
+}
+.bg {
+  position: absolute;
+  width: calc(100% - 24px);
+  height: 100%;
+  top: 0;
+  left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.icon {
+  border-radius: 8px;
+  background: var(--userCompliments-green-30, #37ff57);
+  display: flex;
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.title {
+  width: 278px;
+  height: 37px;
+  flex-shrink: 0;
+  overflow: hidden;
+  color: var(--neutral-70, #000);
+  font-feature-settings: "case" on;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  /* title/xlarge */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  margin: 6px;
+}
+.percent {
+  font-size: 100px;
+  margin: 0;
+  margin-right: 25px;
+}

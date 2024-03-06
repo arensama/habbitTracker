@@ -1,0 +1,13 @@
+# dependencies
+/api/node_modules
+/web/node_modules
+
+# testing
+/web/coverage
+/api/coverage
+
+# production
+/web/build
+/api/build
+
+/api/dist

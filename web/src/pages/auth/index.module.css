@@ -1,0 +1,47 @@
+@import url("../../assets/fonts/syne/style.css");
+.title {
+  color: var(--neutral-70, #000);
+  font-feature-settings: "case" on;
+  font-family: "Syne Bold";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 100% */
+  z-index: 1;
+}
+.titleBG {
+  background: var(--primary-20, #f55daf);
+  width: 90%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0; /* 10 pixels higher */
+  left: -10px; /* 10 pixels to the left */
+}
+.layout {
+  background-color: transparent;
+  max-width: 1200px;
+  margin: auto;
+}
+.header {
+  height: auto;
+  background-color: transparent;
+  padding: 24px 0;
+}
+.avatar {
+  margin: 10px;
+}
+.input {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  transition: 0;
+}
+.input:focus {
+  box-shadow: none;
+  border-bottom: 2px solid black;
+}
+.input:hover {
+  box-shadow: none;
+  border-bottom: 2px solid black;
+}
